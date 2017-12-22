@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:text="Thanks!"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/thanks"
+        android:layout_gravity="top|center_vertical"
+        android:textSize="36sp"
+        android:textAlignment="center"
+        android:layout_weight="1"
+        android:layout_y="150dp"
+        android:layout_x="225dp"/>
+
+    <Button
+        android:text="Back"
+        android:layout_width="183dp"
+        android:layout_height="66dp"
+        android:id="@+id/back"
+        android:layout_x="203dp"
+        android:layout_y="268dp" />
+</AbsoluteLayout>
